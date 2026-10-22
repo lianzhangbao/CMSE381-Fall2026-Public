@@ -1,0 +1,59 @@
+# Table of contents
+
+format: jb-book
+root: index
+parts:
+
+  - caption: CMSE 381 - Fall 2026
+    numbered: False
+    chapters:
+    - file: Course_Info/Schedule.md
+      title: Course Schedule
+    # - file: Course_Info/Syllabus.md
+    #   title: Syllabus
+
+  - caption: Lectures - Test 1
+    numbered: False
+    chapters:
+
+    - file: Lectures/01-Ch1-PythonReview/index.md
+      title: Day 01 (M 8/31)
+      sections:
+      - file: Lectures/01-Ch1-PythonReview/Fall2026/CMSE381-Lec01_PythonReview.ipynb
+        title: Jupyter notebook
+      - file: Lectures/01-Ch1-PythonReview/slides.md
+        title: Slides
+
+    # Days 02-03: add here
+
+    - file: Lectures/04-Ch3_1-LinReg/index.md
+      title: Day 04 (W 9/9)
+      sections:
+      - file: Lectures/04-Ch3_1-LinReg/slides.md
+        title: Slides
+
+    - file: Lectures/05-Ch3_1-MoreLinReg/index.md
+      title: Day 05 (F 9/11)
+      sections:
+      - file: Lectures/05-Ch3_1-MoreLinReg/slides.md
+        title: Slides
+
+    - file: Lectures/06-Ch3_2-MultLinReg/index.md
+      title: Day 06 (M 9/14)
+      sections:
+      - file: Lectures/06-Ch3_2-MultLinReg/slides.md
+        title: Slides
+
+    - file: Lectures/07-Ch3_3-MoreLinReg/index.md
+      title: Day 07 (W 9/16)
+      sections:
+      - file: Lectures/07-Ch3_3-MoreLinReg/slides.md
+        title: Slides
+
+    # Days 08 and later: add here
+
+  - caption: Project
+    numbered: False
+    chapters:
+    - file: Project/ProjectDescription.md
+      title: Project Info

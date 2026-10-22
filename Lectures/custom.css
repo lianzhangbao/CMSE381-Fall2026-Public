@@ -1,0 +1,74 @@
+/* CMSE 381 slide deck: bump up default figure sizes.
+   The Beamer->Quarto conversion script assigns each image a width
+   percentage based on its original LaTeX \includegraphics width, but
+   that percentage is relative to the image's *column*, not the full
+   slide -- so a "70%" figure inside a 40%-wide column renders at
+   roughly 28% of the slide, which looks too small. Rather than
+   editing every image tag by hand, this overrides the inline width
+   Quarto/Pandoc generates for each common value.
+
+   IMPORTANT: Quarto/Pandoc renders the width attribute as
+   style="width:XX.0%" -- note the decimal point and no space after
+   the colon. The selectors below match that exact format.
+*/
+
+/* ---- MSU Spartan Green branding ---- */
+:root {
+  --msu-green: #18453B;
+  --msu-green-light: #2F6F5E;
+}
+
+.reveal h1,
+.reveal h2 {
+  color: var(--msu-green);
+}
+
+.reveal h3 {
+  color: var(--msu-green-light);
+}
+
+.reveal a {
+  color: var(--msu-green);
+}
+
+.reveal ul li::marker,
+.reveal ol li::marker {
+  color: var(--msu-green);
+}
+
+.reveal strong {
+  color: var(--msu-green);
+}
+
+.reveal .callout-note {
+  border-left: 4px solid var(--msu-green);
+}
+
+.reveal .slide-number {
+  color: var(--msu-green);
+}
+
+.reveal .progress {
+  color: var(--msu-green);
+}
+/* ---- end MSU branding ---- */
+
+.reveal img {
+  height: auto !important;
+}
+
+.reveal img[style*="width:100.0%"] { width: 100% !important; }
+.reveal img[style*="width:90.0%"]  { width: 100% !important; }
+.reveal img[style*="width:80.0%"]  { width: 98% !important; }
+.reveal img[style*="width:70.0%"]  { width: 95% !important; }
+.reveal img[style*="width:60.0%"]  { width: 85% !important; }
+.reveal img[style*="width:50.0%"]  { width: 78% !important; }
+.reveal img[style*="width:45.0%"]  { width: 72% !important; }
+.reveal img[style*="width:40.0%"]  { width: 62% !important; }
+.reveal img[style*="width:35.0%"]  { width: 55% !important; }
+.reveal img[style*="width:30.0%"]  { width: 46% !important; }
+
+/* Images that are the only content in a column should fill it. */
+.reveal .column > img:only-child {
+  width: 100% !important;
+}

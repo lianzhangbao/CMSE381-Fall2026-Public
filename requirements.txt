@@ -1,0 +1,8 @@
+jupyter-book<2
+jupyter
+pandas
+numpy
+matplotlib
+statsmodels
+scikit-learn
+ISLP

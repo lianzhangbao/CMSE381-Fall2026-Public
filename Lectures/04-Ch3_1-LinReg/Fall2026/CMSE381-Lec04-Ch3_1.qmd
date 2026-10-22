@@ -1,0 +1,213 @@
+---
+title: "Ch 3.1: Linear Regression"
+subtitle: "Lecture 4 - CMSE 381"
+date: 2026-09-09
+date-format: "ddd, MMM D, YYYY"
+author: "Michigan State University — Dept of Computational Mathematics, Science & Engineering"
+format:
+  revealjs:
+    theme: simple
+    aspectratio: 169
+    slide-number: true
+    css: ../../custom.css
+    include-in-header: ../../mathjax-a11y.html
+    transition: fade
+    scrollable: true
+---
+
+## Announcements
+
+Last time:
+
+- 2.2 Assessing Model Accuracy
+
+## Covered in this lecture
+
+- Least squares coefficient estimates for linear regression
+- Residual sum of squares (RSS)
+
+# Simple Linear Regression
+
+## Setup
+
+::: {.incremental}
+
+- Predict $Y$ on a single predictor variable $X$
+$$
+Y \approx \beta_0 + \beta_1 X
+$$
+- "$\approx$" .... "is approximately modeled as"
+
+:::
+
+## Example
+
+:::::: {.columns}
+
+::::: {.column width="30%"}
+
+![screenshot of the advertising data set](../../Figures/AdvertisingDataSet-Screenshot.png){fig-alt="screenshot of the advertising data set" width="70%"}
+
+:::::
+
+::::: {.column width="40%"}
+
+$$
+sales \approx \beta_0 + \beta_1 TV
+$$
+
+- $\beta_0$ intercept; $\beta_1$ slope
+- Coefficients or parameters: $\{\beta_0, \beta_1\}$
+- Once we have good guesses for $\hat \beta_i$, model is
+$$
+\hat y = \hat \beta_0 + \hat \beta_1 x
+$$
+
+:::::
+
+::::::
+
+## Loading the data (ISLP-style)
+
+The `Advertising` dataset isn't bundled in the `ISLP` package itself, but is
+available as a CSV from the book's own site. We follow the same
+`ModelSpec` / `summarize` workflow the ISLP labs use for every other
+dataset in the course.
+
+```{python}
+#| echo: true
+import pandas as pd
+from ISLP.models import ModelSpec as MS
+
+advertising = pd.read_csv(
+    "https://www.statlearning.com/s/Advertising.csv", index_col=0
+)
+advertising.head()
+```
+
+::: {.notes}
+
+`ModelSpec` is the same tool the book uses later for the `Boston` and
+`Carseats` labs -- introducing it here keeps the workflow consistent across
+the whole course rather than switching approaches later.
+
+:::
+
+## Least squares criterion: Setup
+
+### How do we estimate the coefficients?
+
+:::::: {.columns}
+
+::::: {.column width="40%"}
+
+- Given $(x_1,y_1),\cdots,(x_n,y_n)$
+- Let $\hat y_i = \hat \beta_0 + \hat \beta_1 x_i$ be the prediction for $Y$ at the $i$th value of $X$.
+- $e_i = y_i - \hat y_i$ is the $i$th residual
+
+:::::
+
+::::: {.column width="40%"}
+
+![scatter plot with linear fit and residuals](../../Figures/Fig3-1.png){fig-alt="scatter plot with linear fit and residuals" width="70%"}
+
+:::::
+
+::::::
+
+## Least squares criterion: RSS
+
+:::::: {.columns}
+
+::::: {.column width="60%"}
+
+![scatter plot of sales versus TV advertising with least-squares fit and residual line segments](../../Figures/Fig3-2.png){fig-alt="Scatter plot of sales versus TV advertising spending with a least-squares regression line through the data; a vertical gray line segment connects each data point to the fitted line, representing that point's residual" width="70%"}
+$$
+sales \approx \beta_0 + \beta_1 TV
+$$
+
+:::::
+
+::::: {.column width="34%"}
+
+Residual sum of squares RSS is
+$$
+\begin{aligned}
+RSS &= e_1^2 + \cdots + e_n^2\\
+    &= \sum_i (y_i - \hat \beta_0 - \hat \beta_1 x_i)^2
+\end{aligned}
+$$
+
+:::::
+
+::::::
+
+::: {.callout-note appearance="simple" title="Least squares criterion"}
+
+Find $\beta_0$ and $\beta_1$ that minimize the RSS.
+
+:::
+
+## Least squares coefficient estimates
+
+:::::: {.columns}
+
+::::: {.column width="40%"}
+
+Minimizing RSS:
+
+$$
+\min_{\beta_0,\beta_1} \sum_i (y_i - \hat \beta_0 - \hat \beta_1 x_i)^2
+$$
+
+$$
+\begin{aligned}
+\frac{\partial RSS}{\partial \hat \beta_0} & = -2 \sum_i (y_i - \hat{\beta}_0 - \hat{\beta}_1x_i) = 0 \\
+\frac{\partial RSS}{\partial \hat \beta_1} & = -2 \sum_i x_i(y_i - \hat \beta_0 - \hat \beta_1x_i) = 0
+\end{aligned}
+$$
+
+:::::
+
+::::: {.column width="40%"}
+
+$$
+\begin{aligned}
+\hat \beta_1 &= \frac{\sum_{i=1}^n(x_i-\overline x) (y_i - \overline y)}
+                     {\sum_{i=1}^n (x_i - \overline x)^2}\\
+\hat \beta_0 &= \overline y - \hat \beta_1 \overline x
+\end{aligned}
+$$
+
+- Closed form!
+- Though iterative methods (e.g. gradient descent) are often used for larger problems
+
+:::::
+
+::::::
+
+## Coding group work {background-color="#FDDDA0"}
+
+## Next time
+
+:::::: {.columns}
+
+::::: {.column width="40%"}
+
+Next time:
+
+- More on simple linear regression!
+- Evaluation of model etc.
+
+:::::
+
+::::: {.column width="40%"}
+
+**Announcements**
+
+- Homework 1
+  - Due Sun, Sep 13
+
+:::::
+
+::::::
