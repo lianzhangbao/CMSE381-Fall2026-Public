@@ -5,7 +5,7 @@ Welcome to the course site for **CMSE 381: Fundamentals of Data Science**, Secti
 ## Instructor and office hours
 
 - **Dr. Lianzhang Bao** (he/him), Assistant Professor, CMSE. Office hours: Tue 9:00-10:00 am and Wed 10:00-11:00 am, in person in EB 2507L (starting 9/08).
-- **Christy Lu** (she/her), Graduate Student, CMSE. Office hours: TBD.
+- **Christy Lu** (she/her), Graduate Student, CMSE. Office hours: Tue 11:00 am - noon and Wed 2:00 - 3:00 pm, in person in EB 2504.
 
 ## Where to find things
 

@@ -12,7 +12,7 @@
 | **Office** | Engineering Building, Room 2507L, 428 South Shaw Lane |
 | **Office hours (Dr. Bao)** | Tue 9:00 - 10:00 am and Wed 10:00 - 11:00 am, in person (starting 9/08) |
 | **TA** | Christy Lu |
-| **TA office hours** | Christy Lu: Tue 11:00 am - noon and Wed 2:00 - 3:00 pm, in person at Engineering Building 2504 |
+| **TA office hours** | Christy Lu: Tue 11:00 am - noon and Wed 2:00 - 3:00 pm, in person at EB 2504 (Engineering Building) |
 
 ## Course description
 
