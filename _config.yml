@@ -1,6 +1,8 @@
 title: CMSE 381 - Fall 2026
 author: Prof. Lianzhang Bao, Michigan State University
 copyright: "2026"
+logo: logo.png
+
 exclude_patterns: [README.md, _build]
 
 execute:
