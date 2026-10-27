@@ -8,4 +8,6 @@ jupyter-book build .
 ( cd . && find Lectures -name "*.html" -o -type d -name "*_files" | grep -v "^Lectures$" ) | while read p; do
   mkdir -p "_build/html/$(dirname "$p")"; cp -r "$p" "_build/html/$(dirname "$p")/"
 done
+# copy shared figures so slide image paths (../../Figures/...) resolve
+if [ -d Lectures/Figures ]; then mkdir -p _build/html/Lectures && cp -r Lectures/Figures _build/html/Lectures/; fi
 echo "Done. Open _build/html/index.html"
