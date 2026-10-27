@@ -5,3 +5,5 @@ Topics:
 - Other considerations in the regression model
 
 See the slides below.
+
+**Textbook reading:** Ch. 3.3 of [ISLP](https://www.statlearning.com/).

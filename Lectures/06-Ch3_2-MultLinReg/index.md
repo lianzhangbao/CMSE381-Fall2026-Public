@@ -5,3 +5,5 @@ Topics:
 - Multiple linear regression
 
 See the slides below.
+
+**Textbook reading:** Ch. 3.2 of [ISLP](https://www.statlearning.com/).

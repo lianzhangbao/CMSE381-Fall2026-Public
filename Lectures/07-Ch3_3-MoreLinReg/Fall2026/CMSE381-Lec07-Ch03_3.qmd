@@ -815,3 +815,8 @@ $x_{i2}$ setup on the previous slide.
 ## Next time
 
 ![TODO: alt text for Schedule-S26-Lecs1_to_10.png](../../Figures/Schedule-S26-Lecs1_to_10.png){fig-alt="TODO: describe this figure" width="65%"}
+
+## Source and reading
+
+- Textbook reading: Ch. 3.3 of [*An Introduction to Statistical Learning with Applications in Python*](https://www.statlearning.com/).
+- Figures and datasets are from the textbook (ISLP) unless noted.

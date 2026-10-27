@@ -269,3 +269,9 @@ Examples:
 - Quiz sometime **this** week
 - Office hours:
   - Starting next week
+
+## Source and reading
+
+- Textbook reading: Ch. 1 and 2.1 of [*An Introduction to Statistical Learning with Applications in Python*](https://www.statlearning.com/).
+- Figures and datasets are from the textbook (ISLP) unless noted.
+- Figures in these slides: ESL, Table 1.1 (spam example).

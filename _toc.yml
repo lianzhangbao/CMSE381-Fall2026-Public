@@ -9,8 +9,10 @@ parts:
     chapters:
     - file: Course_Info/Schedule.md
       title: Course Schedule
-    # - file: Course_Info/Syllabus.md
-    #   title: Syllabus
+    - file: Course_Info/Syllabus.md
+      title: Syllabus and Policies
+    - file: Course_Info/Credits.md
+      title: Credits and sources
 
   - caption: Lectures - Test 1
     numbered: False

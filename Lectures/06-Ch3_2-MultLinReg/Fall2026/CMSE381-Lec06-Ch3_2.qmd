@@ -541,3 +541,8 @@ Do all the predictors help to explain $Y$, or is only a subset of the predictors
 :::::
 
 ::::::
+
+## Source and reading
+
+- Textbook reading: Ch. 3.2 of [*An Introduction to Statistical Learning with Applications in Python*](https://www.statlearning.com/).
+- Figures and datasets are from the textbook (ISLP) unless noted.

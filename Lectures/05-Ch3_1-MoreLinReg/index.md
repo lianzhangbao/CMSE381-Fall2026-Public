@@ -5,3 +5,5 @@ Topics:
 - Simple linear regression, continued
 
 See the slides below.
+
+**Textbook reading:** Ch. 3.1 of [ISLP](https://www.statlearning.com/).
