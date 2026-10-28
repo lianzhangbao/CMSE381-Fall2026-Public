@@ -4,13 +4,15 @@ format: jb-book
 root: index
 parts:
 
-  - caption: Course Information
+  - caption: CMSE 381 - Fall 2026
     numbered: False
     chapters:
     - file: Course_Info/Schedule.md
       title: Course Schedule
     - file: Course_Info/Syllabus.md
       title: Syllabus and Policies
+    - file: Course_Info/Datasets.md
+      title: Datasets
     - file: Course_Info/Credits.md
       title: Credits and sources
 
@@ -26,7 +28,13 @@ parts:
       - file: Lectures/01-Ch1-PythonReview/slides.md
         title: Slides
 
-    # Days 02-03: add here
+    - file: Lectures/02-Ch2_1-StatLearning/index.md
+      title: Day 02 (W 9/2)
+      sections:
+      - file: Lectures/02-Ch2_1-StatLearning/slides.md
+        title: Slides
+
+    # Day 03: add here
 
     - file: Lectures/04-Ch3_1-LinReg/index.md
       title: Day 04 (W 9/9)
