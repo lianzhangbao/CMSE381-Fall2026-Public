@@ -4,7 +4,7 @@ format: jb-book
 root: index
 parts:
 
-  - caption: CMSE 381 - Fall 2026
+  - caption: Course Information
     numbered: False
     chapters:
     - file: Course_Info/Schedule.md
