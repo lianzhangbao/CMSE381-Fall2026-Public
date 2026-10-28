@@ -4,6 +4,6 @@ Topics:
 
 - Multiple linear regression
 
-See the slides below.
+See the slides and the Jupyter notebook below.
 
 **Textbook reading:** Ch. 3.2 of [ISLP](https://www.statlearning.com/).

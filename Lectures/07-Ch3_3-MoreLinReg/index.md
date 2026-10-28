@@ -4,6 +4,6 @@ Topics:
 
 - Other considerations in the regression model
 
-See the slides below.
+See the slides and the Jupyter notebook below.
 
 **Textbook reading:** Ch. 3.3 of [ISLP](https://www.statlearning.com/).

@@ -34,36 +34,110 @@ parts:
       - file: Lectures/02-Ch2_1-StatLearning/slides.md
         title: Slides
 
-    # Day 03: add here
+    - file: Lectures/03-Ch2_2-ModelAccuracy/index.md
+      title: Day 03 (F 9/4)
+      sections:
+      - file: Lectures/03-Ch2_2-ModelAccuracy/Fall2026/CMSE381-Lec03_MSE.ipynb
+        title: Jupyter notebook
+      - file: Lectures/03-Ch2_2-ModelAccuracy/slides.md
+        title: Slides
+
 
     - file: Lectures/04-Ch3_1-LinReg/index.md
       title: Day 04 (W 9/9)
       sections:
+      - file: Lectures/04-Ch3_1-LinReg/Fall2026/CMSE381-Lec04_LinRegLab.ipynb
+        title: Jupyter notebook
       - file: Lectures/04-Ch3_1-LinReg/slides.md
         title: Slides
 
     - file: Lectures/05-Ch3_1-MoreLinReg/index.md
       title: Day 05 (F 9/11)
       sections:
+      - file: Lectures/05-Ch3_1-MoreLinReg/Fall2026/CMSE381-Lec05_MoreLinRegLab.ipynb
+        title: Jupyter notebook
       - file: Lectures/05-Ch3_1-MoreLinReg/slides.md
         title: Slides
 
     - file: Lectures/06-Ch3_2-MultLinReg/index.md
       title: Day 06 (M 9/14)
       sections:
+      - file: Lectures/06-Ch3_2-MultLinReg/Fall2026/CMSE381-Lec06_MultLinReg.ipynb
+        title: Jupyter notebook
       - file: Lectures/06-Ch3_2-MultLinReg/slides.md
         title: Slides
 
     - file: Lectures/07-Ch3_3-MoreLinReg/index.md
       title: Day 07 (W 9/16)
       sections:
+      - file: Lectures/07-Ch3_3-MoreLinReg/Fall2026/CMSE381-Lec07_EvenMoreLinReg.ipynb
+        title: Jupyter notebook
       - file: Lectures/07-Ch3_3-MoreLinReg/slides.md
         title: Slides
 
-    # Days 08 and later: add here
+    - file: Lectures/08-LinReg-Part5/index.md
+      title: Day 08 (F 9/18)
+      sections:
+      - file: Lectures/08-LinReg-Part5/Fall2026/CMSE381-Lec08_LastOfLinReg.ipynb
+        title: Jupyter notebook
+      - file: Lectures/08-LinReg-Part5/slides.md
+        title: Slides
+
+    - file: Lectures/09-Ch2_2_3-Classification/index.md
+      title: Day 09 (M 9/21)
+      sections:
+      - file: Lectures/09-Ch2_2_3-Classification/Fall2026/CMSE381-Lec09_IntroClassification.ipynb
+        title: Jupyter notebook
+      - file: Lectures/09-Ch2_2_3-Classification/slides.md
+        title: Slides
+
+    - file: Lectures/10-Ch4_3-LogisticRegression/index.md
+      title: Day 10 (W 9/23)
+      sections:
+      - file: Lectures/10-Ch4_3-LogisticRegression/Fall2026/CMSE381-Lec10_LogisticRegression.ipynb
+        title: Jupyter notebook
+      - file: Lectures/10-Ch4_3-LogisticRegression/slides.md
+        title: Slides
+
+    - file: Lectures/11-Ch4_3-MultipleLogisticRegression/index.md
+      title: Day 11 (F 9/25)
+      sections:
+      - file: Lectures/11-Ch4_3-MultipleLogisticRegression/Fall2026/CMSE381-Lec11_MoreLogisticRegression.ipynb
+        title: Jupyter notebook
+      - file: Lectures/11-Ch4_3-MultipleLogisticRegression/slides.md
+        title: Slides
+
+  - caption: Lectures - Test 2
+    numbered: False
+    chapters:
+    - file: Lectures/14-Ch5_1-LOOCV/index.md
+      title: Day 14 (F 10/2)
+      sections:
+      - file: Lectures/14-Ch5_1-LOOCV/Fall2026/CMSE381-Lec14_LOOCV.ipynb
+        title: Jupyter notebook
+      - file: Lectures/14-Ch5_1-LOOCV/slides.md
+        title: Slides
+
+    # Days 15 to 23: add here
+
+  - caption: Lectures - Test 3
+    numbered: False
+    chapters:
+    - file: Lectures/24-Ch7_1-PolynomialStepFunctions/index.md
+      title: Day 24 (W 10/28)
+      sections:
+      - file: Lectures/24-Ch7_1-PolynomialStepFunctions/Fall2026/CMSE381-Lec24_PolynomialAndStepFunctions.ipynb
+        title: Jupyter notebook
+      - file: Lectures/24-Ch7_1-PolynomialStepFunctions/slides.md
+        title: Slides
+
+    # Days 25 and later: add here
 
   - caption: Project
     numbered: False
     chapters:
     - file: Project/ProjectDescription.md
       title: Project Info
+      sections:
+      - file: Project/ProjectTemplate.ipynb
+        title: Project template notebook

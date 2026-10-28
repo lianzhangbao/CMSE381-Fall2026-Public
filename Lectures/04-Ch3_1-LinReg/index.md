@@ -5,6 +5,6 @@ Topics:
 - Least squares coefficient estimates
 - Residual sum of squares (RSS)
 
-See the slides below.
+See the slides and the Jupyter notebook below.
 
 **Textbook reading:** Ch. 3.1 of [ISLP](https://www.statlearning.com/).
