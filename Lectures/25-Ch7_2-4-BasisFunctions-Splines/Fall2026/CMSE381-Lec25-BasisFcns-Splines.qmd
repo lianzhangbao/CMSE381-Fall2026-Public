@@ -39,7 +39,7 @@ format:
 **Announcements:**
 
 - HW #4 due Sun 11/1
-- Dr. Bao will be out of town. Christy will cover Lecture 26 (Mon 11/2) and Lecture 27 (Wed 11/4).
+<!-- - Dr. Bao will be out of town. Christy will cover Lecture 26 (Mon 11/2) and Lecture 27 (Wed 11/4). -->
 
 :::::
 
