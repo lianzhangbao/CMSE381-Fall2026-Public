@@ -131,7 +131,15 @@ parts:
       - file: Lectures/24-Ch7_1-PolynomialStepFunctions/slides.md
         title: Slides
 
-    # Days 25 and later: add here
+    - file: Lectures/25-Ch7_2-4-BasisFunctions-Splines/index.md
+      title: Day 25 (F 10/30)
+      sections:
+      - file: Lectures/25-Ch7_2-4-BasisFunctions-Splines/Fall2026/CMSE381-Lec25_StepClassification.ipynb
+        title: Jupyter notebook
+      - file: Lectures/25-Ch7_2-4-BasisFunctions-Splines/slides.md
+        title: Slides
+
+    # Days 26 and later: add here
 
   - caption: Project
     numbered: False
