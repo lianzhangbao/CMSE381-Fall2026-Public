@@ -49,7 +49,7 @@ Homework is due at midnight on the due date and is submitted at <https://www.msu
 | 23 | F | 10/23 | Midterm #2 |  |
 |  | M | 10/26 | **No Class - Fall Break** |  |
 | [24](../Lectures/24-Ch7_1-PolynomialStepFunctions/index.md) | W | 10/28 | Polynomial & Step functions | 7.1-7.2 |
-| 25 | F | 10/30 | Step functions; Basis functions; start splines | 7.2-7.4 |
+| [25](../Lectures/25-Ch7_2-4-BasisFunctions-Splines/index.md) | F | 10/30 | Step functions; Basis functions; start splines | 7.2-7.4 |
 | 26 | M | 11/02 | Regression splines | 7.4 |
 | 27 | W | 11/04 | Decision trees | 8.1 |
 | 28 | F | 11/06 | Random forests | 8.2.1, 8.2.2 |

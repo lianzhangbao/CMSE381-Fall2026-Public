@@ -28,7 +28,7 @@ format:
 
 **Announcements:**
 
-- HW #4 due Fri 10/30
+- HW #4 due Sun 11/1
 - Project updates
 - Dr. Bao will be out of town. Christy will cover Lecture 26 (Mon 11/2) and Lecture 27 (Wed 11/4).
 
