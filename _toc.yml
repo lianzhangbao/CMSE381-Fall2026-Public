@@ -139,7 +139,15 @@ parts:
       - file: Lectures/25-Ch7_2-4-BasisFunctions-Splines/slides.md
         title: Slides
 
-    # Days 26 and later: add here
+    - file: Lectures/26-Ch7_4-CubicSplines/index.md
+      title: Day 26 (M 11/2)
+      sections:
+      - file: Lectures/26-Ch7_4-CubicSplines/Fall2026/CMSE381-Lec26_Splines.ipynb
+        title: Jupyter notebook
+      - file: Lectures/26-Ch7_4-CubicSplines/slides.md
+        title: Slides
+
+    # Days 27 and later: add here
 
   - caption: Project
     numbered: False
