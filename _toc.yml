@@ -147,7 +147,15 @@ parts:
       - file: Lectures/26-Ch7_4-CubicSplines/slides.md
         title: Slides
 
-    # Days 27 and later: add here
+    - file: Lectures/27-Ch8_1-DecisionTrees/index.md
+      title: Day 27 (W 11/4)
+      sections:
+      - file: Lectures/27-Ch8_1-DecisionTrees/Fall2026/CMSE381-Lec27_DecisionTrees.ipynb
+        title: Jupyter notebook
+      - file: Lectures/27-Ch8_1-DecisionTrees/slides.md
+        title: Slides
+
+    # Days 28 and later: add here
 
   - caption: Project
     numbered: False
