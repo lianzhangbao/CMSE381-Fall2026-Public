@@ -155,7 +155,15 @@ parts:
       - file: Lectures/27-Ch8_1-DecisionTrees/slides.md
         title: Slides
 
-    # Days 28 and later: add here
+    - file: Lectures/28-Ch8_2-RandomForests/index.md
+      title: Day 28 (F 11/6)
+      sections:
+      - file: Lectures/28-Ch8_2-RandomForests/Fall2026/CMSE381-Lec28_RandomForests.ipynb
+        title: Jupyter notebook
+      - file: Lectures/28-Ch8_2-RandomForests/slides.md
+        title: Slides
+
+    # Days 29 and later: add here
 
   - caption: Project
     numbered: False

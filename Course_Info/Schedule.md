@@ -50,9 +50,9 @@ Homework is due at midnight on the due date and is submitted at <https://www.msu
 |  | M | 10/26 | **No Class - Fall Break** |  |
 | [24](../Lectures/24-Ch7_1-PolynomialStepFunctions/index.md) | W | 10/28 | Polynomial & Step functions | 7.1-7.2 |
 | [25](../Lectures/25-Ch7_2-4-BasisFunctions-Splines/index.md) | F | 10/30 | Step functions; Basis functions; start splines | 7.2-7.4 |
-| 26 | M | 11/02 | Regression splines | 7.4 |
-| 27 | W | 11/04 | Decision trees | 8.1 |
-| 28 | F | 11/06 | Random forests | 8.2.1, 8.2.2 |
+| [26](../Lectures/26-Ch7_4-CubicSplines/index.md) | M | 11/02 | Regression splines | 7.4 |
+| [27](../Lectures/27-Ch8_1-DecisionTrees/index.md) | W | 11/04 | Decision trees | 8.1 |
+| [28](../Lectures/28-Ch8_2-RandomForests/index.md) | F | 11/06 | Random forests | 8.2.1, 8.2.2 |
 | 29 | M | 11/09 | Catch up day/Practice Problems | HW#5 due |
 | 30 | W | 11/11 | Maximal margin classifier | 9.1 |
 | 31 | F | 11/13 | SVC | 9.2 |
