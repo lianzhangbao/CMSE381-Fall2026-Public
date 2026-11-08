@@ -4,6 +4,8 @@
 
 This project provides students with an opportunity to work on real-world datasets, fostering a broader understanding of data science applications.
 
+**The project is due Tuesday, 12/15/2026.**
+
 You will work in **2-person groups** -- please decide soon who your project partner will be.
 
 ## Dataset

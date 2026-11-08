@@ -107,6 +107,11 @@ parts:
       - file: Lectures/11-Ch4_3-MultipleLogisticRegression/slides.md
         title: Slides
 
+    - file: Lectures/12-Midterm1Review/index.md
+      title: Day 12 (M 9/28)
+    - file: Lectures/13-Midterm1/index.md
+      title: Day 13 (W 9/30)
+
   - caption: Lectures - Test 2
     numbered: False
     chapters:
@@ -118,7 +123,31 @@ parts:
       - file: Lectures/14-Ch5_1-LOOCV/slides.md
         title: Slides
 
-    # Days 15 to 23: add here
+    - file: Lectures/15-Ch5_1-KFoldCV/index.md
+      title: Day 15 (M 10/5)
+      sections:
+      - file: Lectures/15-Ch5_1-KFoldCV/Fall2026/CMSE381-Lec15_PolynomialKFoldCV.ipynb
+        title: Jupyter notebook
+      - file: Lectures/15-Ch5_1-KFoldCV/slides.md
+        title: Slides
+
+    - file: Lectures/16-Ch5_1-KFoldClassification/index.md
+      title: Day 16 (W 10/7)
+      sections:
+      - file: Lectures/16-Ch5_1-KFoldClassification/Fall2026/CMSE381-Lec16_KFoldClassification.ipynb
+        title: Jupyter notebook
+      - file: Lectures/16-Ch5_1-KFoldClassification/slides.md
+        title: Slides
+
+    - file: Lectures/17-Ch6_1-SubsetSelection/index.md
+      title: Day 17 (F 10/9)
+      sections:
+      - file: Lectures/17-Ch6_1-SubsetSelection/Fall2026/CMSE381-Lec17_SubsetSelection.ipynb
+        title: Jupyter notebook
+      - file: Lectures/17-Ch6_1-SubsetSelection/slides.md
+        title: Slides
+
+    # Days 18 to 23: add here
 
   - caption: Lectures - Test 3
     numbered: False
@@ -163,7 +192,24 @@ parts:
       - file: Lectures/28-Ch8_2-RandomForests/slides.md
         title: Slides
 
-    # Days 29 and later: add here
+    - file: Lectures/29-CatchUp/index.md
+      title: Day 29 (M 11/9)
+
+    - file: Lectures/30-Ch9_1-MaximalMarginClassifier/index.md
+      title: Day 30 (W 11/11)
+      sections:
+      - file: Lectures/30-Ch9_1-MaximalMarginClassifier/slides.md
+        title: Slides
+
+    - file: Lectures/31-Ch9_2-SupportVectorClassifier/index.md
+      title: Day 31 (F 11/13)
+      sections:
+      - file: Lectures/31-Ch9_2-SupportVectorClassifier/Fall2026/CMSE381-Lec31_SupportVectorClassifier.ipynb
+        title: Jupyter notebook
+      - file: Lectures/31-Ch9_2-SupportVectorClassifier/slides.md
+        title: Slides
+
+    # Days 32 and later: add here
 
   - caption: Project
     numbered: False
