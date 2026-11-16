@@ -56,7 +56,7 @@ Homework is due at midnight on the due date and is submitted at <https://www.msu
 | [29](../Lectures/29-CatchUp/index.md) | M | 11/09 | Catch up day/Practice Problems | HW#5 due |
 | [30](../Lectures/30-Ch9_1-MaximalMarginClassifier/index.md) | W | 11/11 | Maximal margin classifier | 9.1 |
 | [31](../Lectures/31-Ch9_2-SupportVectorClassifier/index.md) | F | 11/13 | SVC | 9.2 |
-| 32 | M | 11/16 | SVM | 9.3, 9.4 |
+| [32](../Lectures/32-Ch9_3-SupportVectorMachine/index.md) | M | 11/16 | SVM | 9.3, 9.4 |
 | 33 | W | 11/18 | Single layer NN | 10.1 |
 | 34 | F | 11/20 | Multi layer NN | 10.2 |
 | 35 | M | 11/23 | CNN | 10.3 |
