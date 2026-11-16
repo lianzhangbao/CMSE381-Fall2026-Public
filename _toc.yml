@@ -209,7 +209,15 @@ parts:
       - file: Lectures/31-Ch9_2-SupportVectorClassifier/slides.md
         title: Slides
 
-    # Days 32 and later: add here
+    - file: Lectures/32-Ch9_3-SupportVectorMachine/index.md
+      title: Day 32 (M 11/16)
+      sections:
+      - file: Lectures/32-Ch9_3-SupportVectorMachine/Fall2026/CMSE381-Lec32_SupportVectorMachine.ipynb
+        title: Jupyter notebook
+      - file: Lectures/32-Ch9_3-SupportVectorMachine/slides.md
+        title: Slides
+
+    # Days 33 and later: add here
 
   - caption: Project
     numbered: False
