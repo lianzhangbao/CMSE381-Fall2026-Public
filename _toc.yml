@@ -225,7 +225,15 @@ parts:
       - file: Lectures/33-Ch10_1-SingleLayerNeuralNet/slides.md
         title: Slides
 
-    # Days 34 and later: add here
+    - file: Lectures/34-Ch10_2-MultiLayerNeuralNet/index.md
+      title: Day 34 (F 11/20)
+      sections:
+      - file: Lectures/34-Ch10_2-MultiLayerNeuralNet/Fall2026/CMSE381-Lec34_MultiLayerNN.ipynb
+        title: Jupyter notebook
+      - file: Lectures/34-Ch10_2-MultiLayerNeuralNet/slides.md
+        title: Slides
+
+    # Days 35 and later: add here
 
   - caption: Project
     numbered: False

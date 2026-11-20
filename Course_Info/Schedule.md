@@ -57,13 +57,13 @@ Homework is due at midnight on the due date and is submitted at <https://www.msu
 | [30](../Lectures/30-Ch9_1-MaximalMarginClassifier/index.md) | W | 11/11 | Maximal margin classifier | 9.1 |
 | [31](../Lectures/31-Ch9_2-SupportVectorClassifier/index.md) | F | 11/13 | SVC | 9.2 |
 | [32](../Lectures/32-Ch9_3-SupportVectorMachine/index.md) | M | 11/16 | SVM | 9.3, 9.4 |
-| 33 | W | 11/18 | Single layer NN | 10.1 |
-| 34 | F | 11/20 | Multi layer NN | 10.2 |
+| [33](../Lectures/33-Ch10_1-SingleLayerNeuralNet/index.md) | W | 11/18 | Single layer NN | 10.1 |
+| [34](../Lectures/34-Ch10_2-MultiLayerNeuralNet/index.md) | F | 11/20 | Multi layer NN | 10.2 |
 | 35 | M | 11/23 | CNN | 10.3 |
 | 36 | W | 11/25 | Catch up day/Practice Problems |  |
 |  | F | 11/27 | **No Class. Thanksgiving.** |  |
 | 37 | M | 11/30 | Unsupervised learning/clustering Part 1 | 12.1, 12.4 |
-| 38 | W | 12/02 | Unsupervised learning/clustering Part 2 | 12.1, 12.4 |
+| [38](../Lectures/38-ProjectWork/index.md) | W | 12/02 | Project work |  |
 | 39 | F | 12/04 | Catch up day/Practice Problems |  |
 | 40 | M | 12/07 | Midterm #3 review |  |
 | 41 | W | 12/09 | Midterm #3 |  |
