@@ -62,9 +62,9 @@ Homework is due at midnight on the due date and is submitted at <https://www.msu
 | 35 | M | 11/23 | CNN | 10.3 |
 | 36 | W | 11/25 | Catch up day/Practice Problems |  |
 |  | F | 11/27 | **No Class. Thanksgiving.** |  |
-| 37 | M | 11/30 | Unsupervised learning/clustering Part 1 | 12.1, 12.4 |
-| [38](../Lectures/38-ProjectWork/index.md) | W | 12/02 | Project work |  |
+| 37 | M | 11/30 | Unsupervised learning/clustering | 12.1, 12.4 |
+| [38](../Lectures/38-ProjectWork/index.md) | W | 12/02 | Virtual: Project office hours |  |
 | 39 | F | 12/04 | Catch up day/Practice Problems |  |
 | 40 | M | 12/07 | Midterm #3 review |  |
 | 41 | W | 12/09 | Midterm #3 |  |
-| 42 | F | 12/11 | Project work |  |
+| 42 | F | 12/11 | Virtual: Project office hours |  |
